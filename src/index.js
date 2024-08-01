@@ -6,7 +6,7 @@ import App from "./App";
 import "bootstrap/dist/js/bootstrap.bundle";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import "./index.css";
+import "./index.scss";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
