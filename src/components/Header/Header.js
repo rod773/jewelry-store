@@ -5,24 +5,24 @@ const Header = () => {
     <div>
       {/* <!--== Header Area Start ==--> */}
       <header id="header-area">
-        <div class="ruby-container">
-          <div class="row">
+        <div className="ruby-container">
+          <div className="row">
             {/* <!-- Logo Area Start --> */}
-            <div class="col-3 col-lg-1 col-xl-2 m-auto">
-              <a href="index.html" class="logo-area">
-                <img src="assets/img/logo.png" alt="Logo" class="img-fluid" />
+            <div className="col-3 col-lg-1 col-xl-2 m-auto">
+              <a href="index.html" className="logo-area">
+                <img src="assets/img/logo.png" alt="Logo" className="img-fluid" />
               </a>
             </div>
             {/* <!-- Logo Area End -->
 
             <!-- Navigation Area Start --> */}
-            <div class="col-3 col-lg-9 col-xl-8 m-auto">
-              <div class="main-menu-wrap">
+            <div className="col-3 col-lg-9 col-xl-8 m-auto">
+              <div className="main-menu-wrap">
                 <nav id="mainmenu">
                   <ul>
-                    <li class="dropdown-show">
+                    <li className="dropdown-show">
                       <a href="index.html">Home</a>
-                      <ul class="dropdown-nav sub-dropdown">
+                      <ul className="dropdown-nav sub-dropdown">
                         <li>
                           <a href="index.html">Home Layout 1</a>
                         </li>
@@ -43,11 +43,11 @@ const Header = () => {
                         </li>
                       </ul>
                     </li>
-                    <li class="dropdown-show">
+                    <li className="dropdown-show">
                       <a href="#">Shop</a>
-                      <ul class="mega-menu-wrap dropdown-nav">
-                        <li class="mega-menu-item">
-                          <a href="shop.html" class="mega-item-title">
+                      <ul className="mega-menu-wrap dropdown-nav">
+                        <li className="mega-menu-item">
+                          <a href="shop.html" className="mega-item-title">
                             Shop Layout
                           </a>
                           <ul>
@@ -77,8 +77,8 @@ const Header = () => {
                           </ul>
                         </li>
 
-                        <li class="mega-menu-item">
-                          <a href="single-product.html" class="mega-item-title">
+                        <li className="mega-menu-item">
+                          <a href="single-product.html" className="mega-item-title">
                             Single Products
                           </a>
                           <ul>
@@ -104,9 +104,9 @@ const Header = () => {
                         </li>
                       </ul>
                     </li>
-                    <li class="dropdown-show">
+                    <li className="dropdown-show">
                       <a href="#">Pages</a>
-                      <ul class="dropdown-nav">
+                      <ul className="dropdown-nav">
                         <li>
                           <a href="cart.html">Shopping Cart</a>
                         </li>
@@ -130,13 +130,13 @@ const Header = () => {
                         </li>
                       </ul>
                     </li>
-                    <li class="dropdown-show">
+                    <li className="dropdown-show">
                       <a href="#">Men</a>
-                      <ul class="mega-menu-wrap dropdown-nav">
-                        <li class="mega-menu-item">
+                      <ul className="mega-menu-wrap dropdown-nav">
+                        <li className="mega-menu-item">
                           <a
                             href="shop-left-full-wide.html"
-                            class="mega-item-title"
+                            className="mega-item-title"
                           >
                             Shirt
                           </a>
@@ -159,10 +159,10 @@ const Header = () => {
                           </ul>
                         </li>
 
-                        <li class="mega-menu-item">
+                        <li className="mega-menu-item">
                           <a
                             href="shop-left-full-wide.html"
-                            class="mega-item-title"
+                            className="mega-item-title"
                           >
                             Jeans
                           </a>
@@ -185,10 +185,10 @@ const Header = () => {
                           </ul>
                         </li>
 
-                        <li class="mega-menu-item">
+                        <li className="mega-menu-item">
                           <a
                             href="shop-left-full-wide.html"
-                            class="mega-item-title"
+                            className="mega-item-title"
                           >
                             Shoes
                           </a>
@@ -211,10 +211,10 @@ const Header = () => {
                           </ul>
                         </li>
 
-                        <li class="mega-menu-item">
+                        <li className="mega-menu-item">
                           <a
                             href="shop-left-full-wide.html"
-                            class="mega-item-title"
+                            className="mega-item-title"
                           >
                             Watches
                           </a>
@@ -238,13 +238,13 @@ const Header = () => {
                         </li>
                       </ul>
                     </li>
-                    <li class="dropdown-show">
+                    <li className="dropdown-show">
                       <a href="shop-left-full-wide.html">Women</a>
-                      <ul class="mega-menu-wrap dropdown-nav">
-                        <li class="mega-menu-item">
+                      <ul className="mega-menu-wrap dropdown-nav">
+                        <li className="mega-menu-item">
                           <a
                             href="shop-left-full-wide.html"
-                            class="mega-item-title"
+                            className="mega-item-title"
                           >
                             Kamiz
                           </a>
@@ -267,10 +267,10 @@ const Header = () => {
                           </ul>
                         </li>
 
-                        <li class="mega-menu-item">
+                        <li className="mega-menu-item">
                           <a
                             href="shop-left-full-wide.html"
-                            class="mega-item-title"
+                            className="mega-item-title"
                           >
                             Life Style
                           </a>
@@ -293,10 +293,10 @@ const Header = () => {
                           </ul>
                         </li>
 
-                        <li class="mega-menu-item">
+                        <li className="mega-menu-item">
                           <a
                             href="shop-left-full-wide.html"
-                            class="mega-item-title"
+                            className="mega-item-title"
                           >
                             Shoes
                           </a>
@@ -320,9 +320,9 @@ const Header = () => {
                         </li>
                       </ul>
                     </li>
-                    <li class="dropdown-show">
+                    <li className="dropdown-show">
                       <a href="#">Blog</a>
-                      <ul class="dropdown-nav">
+                      <ul className="dropdown-nav">
                         <li>
                           <a href="blog.html">Blog Right Sidebar</a>
                         </li>
@@ -347,22 +347,22 @@ const Header = () => {
             {/* <!-- Navigation Area End -->
 
             <!-- Header Right Meta Start --> */}
-            <div class="col-6 col-lg-2 m-auto">
-              <div class="header-right-meta text-right">
+            <div className="col-6 col-lg-2 m-auto">
+              <div className="header-right-meta text-right">
                 <ul>
                   <li>
-                    <a href="#" class="modal-active">
-                      <i class="fa fa-search"></i>
+                    <a href="#" className="modal-active">
+                      <i className="fa fa-search"></i>
                     </a>
                   </li>
-                  <li class="settings">
+                  <li className="settings">
                     <a href="#">
-                      <i class="fa fa-cog"></i>
+                      <i className="fa fa-cog"></i>
                     </a>
-                    <div class="site-settings d-block d-sm-flex">
-                      <dl class="currency">
+                    <div className="site-settings d-block d-sm-flex">
+                      <dl className="currency">
                         <dt>Currency</dt>
-                        <dd class="current">
+                        <dd className="current">
                           <a href="#">USD</a>
                         </dd>
                         <dd>
@@ -376,7 +376,7 @@ const Header = () => {
                         </dd>
                       </dl>
 
-                      <dl class="my-account">
+                      <dl className="my-account">
                         <dt>My Account</dt>
                         <dd>
                           <a href="#">Dashboard</a>
@@ -389,9 +389,9 @@ const Header = () => {
                         </dd>
                       </dl>
 
-                      <dl class="language">
+                      <dl className="language">
                         <dt>Language</dt>
-                        <dd class="current">
+                        <dd className="current">
                           <a href="#">English (US)</a>
                         </dd>
                         <dd>
@@ -412,89 +412,89 @@ const Header = () => {
                       </dl>
                     </div>
                   </li>
-                  <li class="shop-cart">
+                  <li className="shop-cart">
                     <a href="#">
-                      <i class="fa fa-shopping-bag"></i>{" "}
-                      <span class="count">3</span>
+                      <i className="fa fa-shopping-bag"></i>{" "}
+                      <span className="count">3</span>
                     </a>
-                    <div class="mini-cart">
-                      <div class="mini-cart-body">
-                        <div class="single-cart-item d-flex">
-                          <figure class="product-thumb">
+                    <div className="mini-cart">
+                      <div className="mini-cart-body">
+                        <div className="single-cart-item d-flex">
+                          <figure className="product-thumb">
                             <a href="#">
                               <img
-                                class="img-fluid"
+                                className="img-fluid"
                                 src="assets/img/product-1.jpg"
                                 alt="Products"
                               />
                             </a>
                           </figure>
 
-                          <div class="product-details">
+                          <div className="product-details">
                             <h2>
                               <a href="#">Sprite Yoga Companion</a>
                             </h2>
-                            <div class="cal d-flex align-items-center">
-                              <span class="quantity">3</span>
-                              <span class="multiplication">X</span>
-                              <span class="price">$77.00</span>
+                            <div className="cal d-flex align-items-center">
+                              <span className="quantity">3</span>
+                              <span className="multiplication">X</span>
+                              <span className="price">$77.00</span>
                             </div>
                           </div>
-                          <a href="#" class="remove-icon">
-                            <i class="fa fa-trash-o"></i>
+                          <a href="#" className="remove-icon">
+                            <i className="fa fa-trash-o"></i>
                           </a>
                         </div>
-                        <div class="single-cart-item d-flex">
-                          <figure class="product-thumb">
+                        <div className="single-cart-item d-flex">
+                          <figure className="product-thumb">
                             <a href="#">
                               <img
-                                class="img-fluid"
+                                className="img-fluid"
                                 src="assets/img/product-2.jpg"
                                 alt="Products"
                               />
                             </a>
                           </figure>
-                          <div class="product-details">
+                          <div className="product-details">
                             <h2>
                               <a href="#">Yoga Companion Kit</a>
                             </h2>
-                            <div class="cal d-flex align-items-center">
-                              <span class="quantity">2</span>
-                              <span class="multiplication">X</span>
-                              <span class="price">$6.00</span>
+                            <div className="cal d-flex align-items-center">
+                              <span className="quantity">2</span>
+                              <span className="multiplication">X</span>
+                              <span className="price">$6.00</span>
                             </div>
                           </div>
-                          <a href="#" class="remove-icon">
-                            <i class="fa fa-trash-o"></i>
+                          <a href="#" className="remove-icon">
+                            <i className="fa fa-trash-o"></i>
                           </a>
                         </div>
-                        <div class="single-cart-item d-flex">
-                          <figure class="product-thumb">
+                        <div className="single-cart-item d-flex">
+                          <figure className="product-thumb">
                             <a href="#">
                               <img
-                                class="img-fluid"
+                                className="img-fluid"
                                 src="assets/img/product-3.jpg"
                                 alt="Products"
                               />
                             </a>
                           </figure>
-                          <div class="product-details">
+                          <div className="product-details">
                             <h2>
                               <a href="#">Sprite Yoga Companion Kit</a>
                             </h2>
-                            <div class="cal d-flex align-items-center">
-                              <span class="quantity">1</span>
-                              <span class="multiplication">X</span>
-                              <span class="price">$116.00</span>
+                            <div className="cal d-flex align-items-center">
+                              <span className="quantity">1</span>
+                              <span className="multiplication">X</span>
+                              <span className="price">$116.00</span>
                             </div>
                           </div>
-                          <a href="#" class="remove-icon">
-                            <i class="fa fa-trash-o"></i>
+                          <a href="#" className="remove-icon">
+                            <i className="fa fa-trash-o"></i>
                           </a>
                         </div>
                       </div>
-                      <div class="mini-cart-footer">
-                        <a href="checkout.html" class="btn-add-to-cart">
+                      <div className="mini-cart-footer">
+                        <a href="checkout.html" className="btn-add-to-cart">
                           Checkout
                         </a>
                       </div>

@@ -44,6 +44,10 @@ Last Update: 27.09.2018
    29.  Footer Area Start
 -------------------------------------------------------------------*/
 /*== Theme Typography Style Start ==*/
+
+
+
+
 html {
   font-size: 62.5%;
 }
@@ -186,7 +190,7 @@ button.btn:active {
 }
 
 .section-title:after {
-  background-image: url(../img/title-line.png);
+  background-image: url('assets/img/title-line.png');
   background-repeat: no-repeat;
   background-position: center bottom;
   content: "";
@@ -286,7 +290,7 @@ button.btn:active {
 }
 
 .btn-long-arrow:after {
-  background: url(../img/arrow.png) left center no-repeat;
+  background: url(assets/img/arrow.png) left center no-repeat;
   content: "";
   float: right;
   margin-left: 20px;
@@ -1703,7 +1707,7 @@ address b {
 
 /*== Page Title Area Start ==*/
 #page-title-area {
-  background-image: url("../img/page-title-bg.jpg");
+  background-image: url("assets/img/page-title-bg.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1851,31 +1855,31 @@ address b {
 }
 
 #banner-area #banner-carousel .single-carousel-wrap.slide-item-1 {
-  background-image: url("../img/slide-img-1.jpg");
+  background-image: url("assets/img/slide-img-1.jpg");
 }
 
 #banner-area #banner-carousel .single-carousel-wrap.slide-item-2 {
-  background-image: url("../img/slide-img-2.jpg");
+  background-image: url("assets/img/slide-img-2.jpg");
 }
 
 #banner-area #banner-carousel .single-carousel-wrap.slide-item-3 {
-  background-image: url("../img/slide-img-3.jpg");
+  background-image: url("assets/img/slide-img-3.jpg");
 }
 
 #banner-area #banner-carousel .single-carousel-wrap.slide-item-4 {
-  background-image: url("../img/slide-img-4.jpg");
+  background-image: url("assets/img/slide-img-4.jpg");
 }
 
 #banner-area #banner-carousel .single-carousel-wrap.slide-item-5 {
-  background-image: url("../img/slide-img-5.jpg");
+  background-image: url("assets/img/slide-img-5.jpg");
 }
 
 #banner-area #banner-carousel .single-carousel-wrap.home_6_slide_1 {
-  background-image: url("../img/home_6_slide_1.jpg");
+  background-image: url("assets/img/home_6_slide_1.jpg");
 }
 
 #banner-area #banner-carousel .single-carousel-wrap.home_6_slide_2 {
-  background-image: url("../img/home_6_slide_2.jpg");
+  background-image: url("assets/img/home_6_slide_2.jpg");
 }
 
 #banner-area .owl-dots {
@@ -1965,11 +1969,11 @@ address b {
 }
 
 #banner-area.banner__3 #banner-carousel .single-carousel-wrap.home_4_slide_1 {
-  background-image: url("../img/home_4_slide_1.jpg");
+  background-image: url("assets/img/home_4_slide_1.jpg");
 }
 
 #banner-area.banner__3 #banner-carousel .single-carousel-wrap.home_4_slide_2 {
-  background-image: url("../img/home_4_slide_2.jpg");
+  background-image: url("assets/img/home_4_slide_2.jpg");
 }
 
 /*== Banner // Slider Area End ==*/
@@ -2842,7 +2846,7 @@ address b {
 /*== Products by Category Area End ==*/
 /*== Testimonial Area Start ==*/
 .testimonial-wrapper {
-  background-image: url("../img/testi_bg.jpg");
+  background-image: url("assets/img/testi_bg.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -3399,7 +3403,7 @@ address b {
 }
 
 #products-area-wrapper .product-category-name-warp {
-  background-image: url("../img/men-pro.jpg");
+  background-image: url("assets/img/men-pro.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3549,15 +3553,15 @@ address b {
 }
 
 #products-area-wrapper .product-category-name-warp.women {
-  background-image: url("../img/women.jpg");
+  background-image: url("assets/img/women.jpg");
 }
 
 #products-area-wrapper .product-category-name-warp.clothing {
-  background-image: url("../img/clothing.jpg");
+  background-image: url("assets/img/clothing.jpg");
 }
 
 #products-area-wrapper .product-category-name-warp.jewelry {
-  background-image: url("../img/jewelry.jpg");
+  background-image: url("assets/img/jewelry.jpg");
 }
 
 /*== Home 4 Products Area End ==*/
@@ -5684,7 +5688,7 @@ fieldset legend {
 }
 
 .followup-wrapper {
-  background-image: url("../img/footer-bg.jpg");
+  background-image: url("assets/img/footer-bg.jpg");
   background-size: cover;
   background-position: center center;
   padding: 80px 15px;
