@@ -46,6 +46,11 @@ Last Update: 27.09.2018
 /*== Theme Typography Style Start ==*/
 //@import "~bootstrap-icons/font/bootstrap-icons";
 @import "https://fonts.googleapis.com/css?family=Montserrat:400,600,700";
+@import "https://fonts.googleapis.com/css?family=Droid Serift:400,600,700";
+
+html {
+  font-size: 10px;
+}
 
 body {
   font-size: 1.4rem;
