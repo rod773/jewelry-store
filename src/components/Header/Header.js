@@ -3,19 +3,15 @@ import prodruct_1 from "assets/img/product-1.jpg";
 import prodruct_2 from "assets/img/product-2.jpg";
 import prodruct_3 from "assets/img/product-3.jpg";
 import cancel from "assets/img/cancel.png";
-import { Modal } from "react-bootstrap";
-import { useState } from "react";
+
+import * as bootstrap from "bootstrap";
 
 const Header = () => {
-  const [show, setShow] = useState(false);
+  const openSearch = function () {};
 
-  const openSearch = function () {
-    setShow(true);
-  };
+  const closeSearch = function () {};
 
-  const closeSearch = function () {
-    setShow(false);
-  };
+  var modal2 = new bootstrap.Modal(document.getElementById("ModalSearch"), {});
 
   return (
     <div>
@@ -531,30 +527,23 @@ const Header = () => {
       </header>
       {/* <!--== Header Area End ==--> */}
       {/* <!--== Search Box Area Start ==--> */}
-      <Modal show={show} fullScreen>
-        <div class="modal-dialog modal-fullscreen-lg-down">
-          <span className="modal-close">
-            <img src={cancel} alt="Close" className="img-fluid" />
-          </span>
-
-          <div className="modal-content d-flex">
-            <div className="search-box-area">
-              <div className="search-box-form">
-                <form action="#" method="post">
-                  <input
-                    type="search"
-                    placeholder="type keyword and hit enter"
-                  />
-                  <button className="btn" type="button">
-                    <i className="bi bi-search"></i>
-                  </button>
-                </form>
-              </div>
+      <div className="body-popup-modal-area">
+        <span className="modal-close">
+          <img src="assets/img/cancel.png" alt="Close" className="img-fluid" />
+        </span>
+        <div className="modal-container d-flex">
+          <div className="search-box-area">
+            <div className="search-box-form">
+              <form action="#" method="post">
+                <input type="search" placeholder="type keyword and hit enter" />
+                <button className="btn" type="button">
+                  <i className="fa fa-search"></i>
+                </button>
+              </form>
             </div>
           </div>
         </div>
-      </Modal>
-
+      </div>
       {/* <!--== Search Box Area End ==--> */}
     </div>
   );
