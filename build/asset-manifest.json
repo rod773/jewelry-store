@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wp-content/themes/jewerlly-store/static/css/main.60932d15.css",
-    "main.js": "/wp-content/themes/jewerlly-store/static/js/main.c810851a.js",
+    "main.css": "/wp-content/themes/jewerlly-store/static/css/main.css",
+    "main.js": "/wp-content/themes/jewerlly-store/static/js/main.js",
     "static/media/clothing.jpg": "/wp-content/themes/jewerlly-store/static/media/clothing.640f8d2761d3a1106c84.jpg",
     "static/media/page-title-bg.jpg": "/wp-content/themes/jewerlly-store/static/media/page-title-bg.a6555cb1d75bc7f28ed5.jpg",
     "static/media/bootstrap-icons.woff?": "/wp-content/themes/jewerlly-store/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
@@ -20,11 +20,11 @@
     "static/media/slide-img-1.jpg": "/wp-content/themes/jewerlly-store/static/media/slide-img-1.84594032a3c6d869113a.jpg",
     "static/media/testi_bg.jpg": "/wp-content/themes/jewerlly-store/static/media/testi_bg.0571851846e613c75842.jpg",
     "index.html": "/wp-content/themes/jewerlly-store/index.html",
-    "main.60932d15.css.map": "/wp-content/themes/jewerlly-store/static/css/main.60932d15.css.map",
-    "main.c810851a.js.map": "/wp-content/themes/jewerlly-store/static/js/main.c810851a.js.map"
+    "main.css.map": "/wp-content/themes/jewerlly-store/static/css/main.css.map",
+    "main.js.map": "/wp-content/themes/jewerlly-store/static/js/main.js.map"
   },
   "entrypoints": [
-    "static/css/main.60932d15.css",
-    "static/js/main.c810851a.js"
+    "static/css/main.css",
+    "static/js/main.js"
   ]
 }
