@@ -13,7 +13,7 @@ const Header = () => {
   );
 
   const openSearch = function () {
-    modalSearch.show();
+    // modalSearch.show();
   };
 
   const closeSearch = function () {};
