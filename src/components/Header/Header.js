@@ -2,8 +2,21 @@ import logo from "assets/img/logo.png";
 import prodruct_1 from "assets/img/product-1.jpg";
 import prodruct_2 from "assets/img/product-2.jpg";
 import prodruct_3 from "assets/img/product-3.jpg";
+import cancel from "assets/img/cancel.png";
+import { Modal } from "react-bootstrap";
+import { useState } from "react";
 
 const Header = () => {
+  const [show, setShow] = useState(false);
+
+  const openSearch = function () {
+    setShow(true);
+  };
+
+  const closeSearch = function () {
+    setShow(false);
+  };
+
   return (
     <div>
       {/* <!--== Header Area Start ==--> */}
@@ -26,7 +39,7 @@ const Header = () => {
                     <li className="dropdown-show">
                       <a href="index.html">
                         Home
-                        {/* <i class="bi bi-chevron-down"></i> */}
+                        {/* <i className="bi bi-chevron-down"></i> */}
                       </a>
                       <ul className="dropdown-nav sub-dropdown">
                         <li>
@@ -360,8 +373,8 @@ const Header = () => {
               <div className="header-right-meta text-right">
                 <ul>
                   <li>
-                    <a href="#" className="modal-active">
-                      <i className="fa fa-search"></i>
+                    <a href="#" className="modal-active" onClick={openSearch}>
+                      <i className="bi bi-search"></i>
                     </a>
                   </li>
                   <li className="settings">
@@ -517,6 +530,32 @@ const Header = () => {
         </div>
       </header>
       {/* <!--== Header Area End ==--> */}
+      {/* <!--== Search Box Area Start ==--> */}
+      <Modal show={show} fullScreen>
+        <div class="modal-dialog modal-fullscreen-lg-down">
+          <span className="modal-close">
+            <img src={cancel} alt="Close" className="img-fluid" />
+          </span>
+
+          <div className="modal-content d-flex">
+            <div className="search-box-area">
+              <div className="search-box-form">
+                <form action="#" method="post">
+                  <input
+                    type="search"
+                    placeholder="type keyword and hit enter"
+                  />
+                  <button className="btn" type="button">
+                    <i className="bi bi-search"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Modal>
+
+      {/* <!--== Search Box Area End ==--> */}
     </div>
   );
 };
