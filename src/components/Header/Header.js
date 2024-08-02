@@ -24,7 +24,10 @@ const Header = () => {
                 <nav id="mainmenu">
                   <ul>
                     <li className="dropdown-show">
-                      <a href="index.html">Home</a>
+                      <a href="index.html">
+                        Home
+                        {/* <i class="bi bi-chevron-down"></i> */}
+                      </a>
                       <ul className="dropdown-nav sub-dropdown">
                         <li>
                           <a href="index.html">Home Layout 1</a>

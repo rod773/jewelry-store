@@ -44,10 +44,7 @@ Last Update: 27.09.2018
    29.  Footer Area Start
 -------------------------------------------------------------------*/
 /*== Theme Typography Style Start ==*/
-
-html {
-  font-size: 62.5%;
-}
+//@import "~bootstrap-icons/font/bootstrap-icons";
 
 body {
   font-size: 1.4rem;
@@ -484,8 +481,8 @@ button.btn:active {
 }
 
 .breadcrumb li:after {
-  content: "\f105";
-  font-family: "FontAwesome";
+  content: "\F282";
+  font-family: "bootstrap-icons";
   color: #f4f5f7;
   position: absolute;
   left: calc(100% + 20px);
@@ -1152,9 +1149,9 @@ address b {
 
 #mainmenu ul li.dropdown-show:after {
   color: #f4f5f7;
-  content: "\f107";
+  content: "\F282";
   display: block;
-  font-family: "FontAwesome";
+  font-family: "bootstrap-icons";
   position: absolute;
   right: 5px;
   top: 50%;
@@ -1171,8 +1168,8 @@ address b {
 #mainmenu ul li.dropdown-show .dropdown-show:after {
   position: absolute;
   display: block;
-  content: "\f105";
-  font-family: "FontAwesome";
+  content: "\F282";
+  font-family: "bootstrap-icons";
   right: 10px;
   top: 50%;
   font-size: 1.5rem;
