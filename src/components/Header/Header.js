@@ -7,11 +7,16 @@ import cancel from "assets/img/cancel.png";
 import * as bootstrap from "bootstrap";
 
 const Header = () => {
-  const openSearch = function () {};
+  var modalSearch = new bootstrap.Modal(
+    document.getElementById("ModalSearch"),
+    {}
+  );
+
+  const openSearch = function () {
+    modalSearch.show();
+  };
 
   const closeSearch = function () {};
-
-  var modal2 = new bootstrap.Modal(document.getElementById("ModalSearch"), {});
 
   return (
     <div>
@@ -527,9 +532,9 @@ const Header = () => {
       </header>
       {/* <!--== Header Area End ==--> */}
       {/* <!--== Search Box Area Start ==--> */}
-      <div className="body-popup-modal-area">
+      <div id="ModalSearch" className="body-popup-modal-area">
         <span className="modal-close">
-          <img src="assets/img/cancel.png" alt="Close" className="img-fluid" />
+          <img src={cancel} alt="Close" className="img-fluid" />
         </span>
         <div className="modal-container d-flex">
           <div className="search-box-area">
