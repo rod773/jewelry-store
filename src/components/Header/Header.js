@@ -1,4 +1,7 @@
-import React from "react";
+import logo from "assets/img/logo.png";
+import prodruct_1 from "assets/img/product-1.jpg";
+import prodruct_2 from "assets/img/product-2.jpg";
+import prodruct_3 from "assets/img/product-3.jpg";
 
 const Header = () => {
   return (
@@ -10,7 +13,7 @@ const Header = () => {
             {/* <!-- Logo Area Start --> */}
             <div className="col-3 col-lg-1 col-xl-2 m-auto">
               <a href="index.html" className="logo-area">
-                <img src="assets/img/logo.png" alt="Logo" className="img-fluid" />
+                <img src={logo} alt="Logo" className="img-fluid" />
               </a>
             </div>
             {/* <!-- Logo Area End -->
@@ -78,7 +81,10 @@ const Header = () => {
                         </li>
 
                         <li className="mega-menu-item">
-                          <a href="single-product.html" className="mega-item-title">
+                          <a
+                            href="single-product.html"
+                            className="mega-item-title"
+                          >
                             Single Products
                           </a>
                           <ul>
@@ -424,7 +430,7 @@ const Header = () => {
                             <a href="#">
                               <img
                                 className="img-fluid"
-                                src="assets/img/product-1.jpg"
+                                src={prodruct_1}
                                 alt="Products"
                               />
                             </a>
@@ -449,7 +455,7 @@ const Header = () => {
                             <a href="#">
                               <img
                                 className="img-fluid"
-                                src="assets/img/product-2.jpg"
+                                src={prodruct_2}
                                 alt="Products"
                               />
                             </a>
@@ -473,7 +479,7 @@ const Header = () => {
                             <a href="#">
                               <img
                                 className="img-fluid"
-                                src="assets/img/product-3.jpg"
+                                src={prodruct_3}
                                 alt="Products"
                               />
                             </a>
