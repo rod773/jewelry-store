@@ -3,20 +3,19 @@ import prodruct_1 from "assets/img/product-1.jpg";
 import prodruct_2 from "assets/img/product-2.jpg";
 import prodruct_3 from "assets/img/product-3.jpg";
 import cancel from "assets/img/cancel.png";
-
-import * as bootstrap from "bootstrap";
+import { useState } from "react";
+import { Modal } from "react-bootstrap";
 
 const Header = () => {
-  var modalSearch = new bootstrap.Modal(
-    document.getElementById("ModalSearch"),
-    {}
-  );
+  const [show, setShow] = useState();
 
   const openSearch = function () {
-    // modalSearch.show();
+    setShow(true);
   };
 
-  const closeSearch = function () {};
+  const closeSearch = function () {
+    setShow(false);
+  };
 
   return (
     <div>
@@ -532,7 +531,7 @@ const Header = () => {
       </header>
       {/* <!--== Header Area End ==--> */}
       {/* <!--== Search Box Area Start ==--> */}
-      <div id="ModalSearch" className="body-popup-modal-area">
+      <Modal show={show} className="body-popup-modal-area">
         <span className="modal-close">
           <img src={cancel} alt="Close" className="img-fluid" />
         </span>
@@ -548,7 +547,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </div>
+      </Modal>
       {/* <!--== Search Box Area End ==--> */}
     </div>
   );
