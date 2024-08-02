@@ -531,8 +531,8 @@ const Header = () => {
       </header>
       {/* <!--== Header Area End ==--> */}
       {/* <!--== Search Box Area Start ==--> */}
-      <Modal show={show} className="body-popup-modal-area">
-        <span className="modal-close">
+      <Modal show={show} onHide={closeSearch} className="body-popup-modal-area">
+        <span className="modal-close" onClick={closeSearch}>
           <img src={cancel} alt="Close" className="img-fluid" />
         </span>
         <div className="modal-container d-flex">
@@ -540,7 +540,7 @@ const Header = () => {
             <div className="search-box-form">
               <form action="#" method="post">
                 <input type="search" placeholder="type keyword and hit enter" />
-                <button className="btn" type="button">
+                <button className="btn" type="button" onClick={closeSearch}>
                   <i className="fa fa-search"></i>
                 </button>
               </form>
