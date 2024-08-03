@@ -546,7 +546,7 @@ const Header = () => {
               <form action="#" method="post">
                 <input type="search" placeholder="type keyword and hit enter" />
                 <button className="btn" type="button" onClick={closeSearch}>
-                  <i className="fa fa-search"></i>
+                  <i className="bi bi-search"></i>
                 </button>
               </form>
             </div>
