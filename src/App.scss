@@ -1561,14 +1561,20 @@ address b {
   z-index: 9999;
 }
 
+.modal-dialog,
+.modal-content {
+  width: 100vw !important;
+  height: 100%;
+}
+
 .body-popup-modal-area {
   background-color: rgba(0, 0, 0, 0.9);
   position: fixed;
   left: 0;
   top: 0;
   display: none;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   z-index: 99;
 }
 

@@ -18,7 +18,7 @@ const Header = () => {
   };
 
   return (
-    <div>
+    <>
       {/* <!--== Header Area Start ==--> */}
       <header id="header-area">
         <div className="ruby-container">
@@ -531,11 +531,16 @@ const Header = () => {
       </header>
       {/* <!--== Header Area End ==--> */}
       {/* <!--== Search Box Area Start ==--> */}
-      <Modal show={show} onHide={closeSearch} className="body-popup-modal-area">
+      <Modal
+        className="modal body-popup-modal-area"
+        fullscreen={true}
+        show={show}
+        onHide={closeSearch}
+      >
         <span className="modal-close" onClick={closeSearch}>
           <img src={cancel} alt="Close" className="img-fluid" />
         </span>
-        <div className="modal-container d-flex">
+        <Modal.Body className="modal-container d-flex">
           <div className="search-box-area">
             <div className="search-box-form">
               <form action="#" method="post">
@@ -546,10 +551,10 @@ const Header = () => {
               </form>
             </div>
           </div>
-        </div>
+        </Modal.Body>
       </Modal>
       {/* <!--== Search Box Area End ==--> */}
-    </div>
+    </>
   );
 };
 
