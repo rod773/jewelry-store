@@ -531,16 +531,12 @@ const Header = () => {
       </header>
       {/* <!--== Header Area End ==--> */}
       {/* <!--== Search Box Area Start ==--> */}
-      <Modal
-        className="modal body-popup-modal-area"
-        fullscreen={true}
-        show={show}
-        onHide={closeSearch}
-      >
+      <Modal fullscreen={true} show={show} onHide={closeSearch}>
         <span className="modal-close" onClick={closeSearch}>
-          <img src={cancel} alt="Close" className="img-fluid" />
+          {/* <img src={cancel} alt="Close" className="img-fluid" /> */}
+          <i class="bi bi-x-circle"></i>
         </span>
-        <Modal.Body className="modal-container d-flex">
+        <Modal.Body className="body-popup-modal-area modal-container d-flex">
           <div className="search-box-area">
             <div className="search-box-form">
               <form action="#" method="post">

@@ -1581,6 +1581,8 @@ address b {
 
 .modal-close,
 .menu-close {
+  position: relative;
+  z-index: 99999;
   font-size: 3rem;
   cursor: pointer;
   -webkit-transition: all 0.4s ease-out;
@@ -1592,6 +1594,8 @@ address b {
   right: 50px;
   height: 30px;
   width: 30px;
+
+  color: #929292;
 }
 
 .modal-close:hover,
