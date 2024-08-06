@@ -7,12 +7,10 @@ import slide2 from "assets/img/slide-img-2.jpg";
 
 const SingleCarousel1 = styled.div`
   background-image: url(${slide1});
-  
 `;
 
 const SingleCarousel2 = styled.div`
   background-image: url(${slide2});
-  
 `;
 
 const BannerSlider = () => {
@@ -29,15 +27,17 @@ const BannerSlider = () => {
                     {/* <!-- Banner Single Carousel Start --> */}
                     <SingleCarousel1 className="single-carousel-wrap slide-item-1">
                       <div className="banner-caption text-center text-lg-left">
-                        <h4>Rubby Store</h4>
-                        <h2>Ring Solitaire Princess</h2>
-                        <p>
-                          Eodem modo typi, qui nunc nobis videntur parum clari,
-                          fiant sollemnes in futurum.
-                        </p>
-                        <a href="#" className="btn-long-arrow">
-                          Shop Now
-                        </a>
+                        <Fade bottom>
+                          <h4>Rubby Store</h4>
+                          <h2>Ring Solitaire Princess</h2>
+                          <p>
+                            Eodem modo typi, qui nunc nobis videntur parum
+                            clari, fiant sollemnes in futurum.
+                          </p>
+                          <a href="#" className="btn-long-arrow">
+                            Shop Now
+                          </a>
+                        </Fade>
                       </div>
                     </SingleCarousel1>
                   </Carousel.Item>
@@ -47,15 +47,17 @@ const BannerSlider = () => {
                   <Carousel.Item>
                     <SingleCarousel2 className="single-carousel-wrap slide-item-2">
                       <div className="banner-caption text-center text-lg-left">
-                        <h4>New Collection 2017</h4>
-                        <h2>Beautiful Earrings</h2>
-                        <p>
-                          Eodem modo typi, qui nunc nobis videntur parum clari,
-                          fiant sollemnes in futurum.
-                        </p>
-                        <a href="#" className="btn-long-arrow">
-                          Shop Now
-                        </a>
+                        <Fade bottom>
+                          <h4>New Collection 2017</h4>
+                          <h2>Beautiful Earrings</h2>
+                          <p>
+                            Eodem modo typi, qui nunc nobis videntur parum
+                            clari, fiant sollemnes in futurum.
+                          </p>
+                          <a href="#" className="btn-long-arrow">
+                            Shop Now
+                          </a>
+                        </Fade>
                       </div>
                     </SingleCarousel2>
                   </Carousel.Item>
