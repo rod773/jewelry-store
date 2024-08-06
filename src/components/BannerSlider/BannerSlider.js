@@ -1,6 +1,17 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Fade from "react-reveal/Fade";
+import styled from "styled-components";
+import slide1 from "assets/img/slide-img-1.jpg";
+import slide2 from "assets/img/slide-img-2.jpg";
+
+const SingleCarousel1 = styled.div`
+  background-image: url(${slide1});
+`;
+
+const SingleCarousel2 = styled.div`
+  background-image: url(${slide2});
+`;
 
 const BannerSlider = () => {
   return (
@@ -14,7 +25,7 @@ const BannerSlider = () => {
                 <Carousel>
                   <Carousel.Item>
                     {/* <!-- Banner Single Carousel Start --> */}
-                    <div className="single-carousel-wrap slide-item-1">
+                    <SingleCarousel1 className="single-carousel-wrap slide-item-1">
                       <div className="banner-caption text-center text-lg-left">
                         <h4>Rubby Store</h4>
                         <h2>Ring Solitaire Princess</h2>
@@ -26,13 +37,13 @@ const BannerSlider = () => {
                           Shop Now
                         </a>
                       </div>
-                    </div>
+                    </SingleCarousel1>
                   </Carousel.Item>
                   {/* <!-- Banner Single Carousel End -->
 
                   <!-- Banner Single Carousel Start --> */}
                   <Carousel.Item>
-                    <div className="single-carousel-wrap slide-item-2">
+                    <SingleCarousel2 className="single-carousel-wrap slide-item-2">
                       <div className="banner-caption text-center text-lg-left">
                         <h4>New Collection 2017</h4>
                         <h2>Beautiful Earrings</h2>
@@ -44,7 +55,7 @@ const BannerSlider = () => {
                           Shop Now
                         </a>
                       </div>
-                    </div>
+                    </SingleCarousel2>
                   </Carousel.Item>
 
                   {/* <!-- Banner Single Carousel End --> */}
