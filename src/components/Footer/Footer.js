@@ -1,5 +1,7 @@
 import air_plane from "assets/img/air-plane.png";
 import support from "assets/img/support.png";
+import money_back from "assets/img/money-back.png";
+import cog from "assets/img/cog.png";
 
 const Footer = () => {
   return (
@@ -42,7 +44,7 @@ const Footer = () => {
                   {/* <!-- Single Call-to Action Start --> */}
                   <div className="single-callto-action d-flex">
                     <figure className="callto-thumb">
-                      <img src="assets/img/money-back.png" alt="Money Back" />
+                      <img src={money_back} alt="Money Back" />
                     </figure>
                     <div className="callto-info">
                       <h2>MONEY BACK Guarantee!</h2>
@@ -56,7 +58,7 @@ const Footer = () => {
                   {/* <!-- Single Call-to Action Start --> */}
                   <div className="single-callto-action d-flex">
                     <figure className="callto-thumb">
-                      <img src="assets/img/cog.png" alt="Guide" />
+                      <img src={cog} alt="Guide" />
                     </figure>
                     <div className="callto-info">
                       <h2>SHOPPING GUIDE</h2>
