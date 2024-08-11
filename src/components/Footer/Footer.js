@@ -1,4 +1,5 @@
 import air_plane from "assets/img/air-plane.png";
+import support from "assets/img/support.png";
 
 const Footer = () => {
   return (
@@ -27,7 +28,7 @@ const Footer = () => {
                   {/* <!-- Single Call-to Action Start --> */}
                   <div className="single-callto-action d-flex">
                     <figure className="callto-thumb">
-                      <img src="assets/img/support.png" alt="Support" />
+                      <img src={support} alt="Support" />
                     </figure>
                     <div className="callto-info">
                       <h2>24/7 CUSTOMER SERVICE</h2>
