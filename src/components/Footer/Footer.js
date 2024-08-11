@@ -9,6 +9,7 @@ import gallery_img_2 from "assets/img/gallery-img-2.jpg";
 import gallery_img_3 from "assets/img/gallery-img-3.jpg";
 import gallery_img_4 from "assets/img/gallery-img-4.jpg";
 import Carousel from "react-bootstrap/Carousel";
+import Stack from "react-bootstrap/Stack";
 
 const Footer = () => {
   return (
@@ -131,35 +132,43 @@ const Footer = () => {
               <div className="row">
                 <div className="col-lg-12">
                   <Carousel className="imgage-gallery-carousel owl-carousel">
-                    <Carousel.Item className="gallery-item">
-                      <a href="#">
-                        <img src={gallery_img_1} alt="Gallery" />
-                      </a>
+                    <Carousel.Item>
+                      <Stack direction="horizontal">
+                        <div className="gallery-item">
+                          <a href="#">
+                            <img src={gallery_img_1} alt="Gallery" />
+                          </a>
+                        </div>
+                        <div className="gallery-item">
+                          <a href="#">
+                            <img src={gallery_img_2} alt="Gallery" />
+                          </a>
+                        </div>
+                        <div className="gallery-item">
+                          <a href="#">
+                            <img src={gallery_img_3} alt="Gallery" />
+                          </a>
+                        </div>
+                      </Stack>
                     </Carousel.Item>
-                    <Carousel.Item className="gallery-item">
-                      <a href="#">
-                        <img src={gallery_img_2} alt="Gallery" />
-                      </a>
-                    </Carousel.Item>
-                    <Carousel.Item className="gallery-item">
-                      <a href="#">
-                        <img src={gallery_img_3} alt="Gallery" />
-                      </a>
-                    </Carousel.Item>
-                    <Carousel.Item className="gallery-item">
-                      <a href="#">
-                        <img src={gallery_img_4} alt="Gallery" />
-                      </a>
-                    </Carousel.Item>
-                    <Carousel.Item className="gallery-item">
-                      <a href="#">
-                        <img src={gallery_img_3} alt="Gallery" />
-                      </a>
-                    </Carousel.Item>
-                    <Carousel.Item className="gallery-item">
-                      <a href="#">
-                        <img src={gallery_img_2} alt="Gallery" />
-                      </a>
+                    <Carousel.Item>
+                      <Stack direction="horizontal">
+                        <div className="gallery-item">
+                          <a href="#">
+                            <img src={gallery_img_4} alt="Gallery" />
+                          </a>
+                        </div>
+                        <div className="gallery-item">
+                          <a href="#">
+                            <img src={gallery_img_3} alt="Gallery" />
+                          </a>
+                        </div>
+                        <div className="gallery-item">
+                          <a href="#">
+                            <img src={gallery_img_2} alt="Gallery" />
+                          </a>
+                        </div>
+                      </Stack>
                     </Carousel.Item>
                   </Carousel>
                 </div>
