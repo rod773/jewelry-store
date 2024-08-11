@@ -9,7 +9,6 @@ import gallery_img_2 from "assets/img/gallery-img-2.jpg";
 import gallery_img_3 from "assets/img/gallery-img-3.jpg";
 import gallery_img_4 from "assets/img/gallery-img-4.jpg";
 import Carousel from "react-bootstrap/Carousel";
-import { CarouselItem } from "react-bootstrap";
 
 const Footer = () => {
   return (
@@ -132,36 +131,36 @@ const Footer = () => {
               <div className="row">
                 <div className="col-lg-12">
                   <Carousel className="imgage-gallery-carousel owl-carousel">
-                    <CarouselItem className="gallery-item">
+                    <Carousel.Item className="gallery-item">
                       <a href="#">
                         <img src={gallery_img_1} alt="Gallery" />
                       </a>
-                    </CarouselItem>
-                    <CarouselItem className="gallery-item">
+                    </Carousel.Item>
+                    <Carousel.Item className="gallery-item">
                       <a href="#">
                         <img src={gallery_img_2} alt="Gallery" />
                       </a>
-                    </CarouselItem>
-                    <CarouselItem className="gallery-item">
+                    </Carousel.Item>
+                    <Carousel.Item className="gallery-item">
                       <a href="#">
                         <img src={gallery_img_3} alt="Gallery" />
                       </a>
-                    </CarouselItem>
-                    <CarouselItem className="gallery-item">
+                    </Carousel.Item>
+                    <Carousel.Item className="gallery-item">
                       <a href="#">
                         <img src={gallery_img_4} alt="Gallery" />
                       </a>
-                    </CarouselItem>
-                    <CarouselItem className="gallery-item">
+                    </Carousel.Item>
+                    <Carousel.Item className="gallery-item">
                       <a href="#">
                         <img src={gallery_img_3} alt="Gallery" />
                       </a>
-                    </CarouselItem>
-                    <CarouselItem className="gallery-item">
+                    </Carousel.Item>
+                    <Carousel.Item className="gallery-item">
                       <a href="#">
                         <img src={gallery_img_2} alt="Gallery" />
                       </a>
-                    </CarouselItem>
+                    </Carousel.Item>
                   </Carousel>
                 </div>
               </div>
