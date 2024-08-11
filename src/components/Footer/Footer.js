@@ -8,6 +8,8 @@ import gallery_img_1 from "assets/img/gallery-img-1.jpg";
 import gallery_img_2 from "assets/img/gallery-img-2.jpg";
 import gallery_img_3 from "assets/img/gallery-img-3.jpg";
 import gallery_img_4 from "assets/img/gallery-img-4.jpg";
+import Carousel from "react-bootstrap/Carousel";
+import { CarouselItem } from "react-bootstrap";
 
 const Footer = () => {
   return (
@@ -129,38 +131,38 @@ const Footer = () => {
             <div className="image-gallery-wrapper">
               <div className="row">
                 <div className="col-lg-12">
-                  <div className="imgage-gallery-carousel owl-carousel">
-                    <div className="gallery-item">
+                  <Carousel className="imgage-gallery-carousel owl-carousel">
+                    <CarouselItem className="gallery-item">
                       <a href="#">
                         <img src={gallery_img_1} alt="Gallery" />
                       </a>
-                    </div>
-                    <div className="gallery-item">
+                    </CarouselItem>
+                    <CarouselItem className="gallery-item">
                       <a href="#">
                         <img src={gallery_img_2} alt="Gallery" />
                       </a>
-                    </div>
-                    <div className="gallery-item">
+                    </CarouselItem>
+                    <CarouselItem className="gallery-item">
                       <a href="#">
                         <img src={gallery_img_3} alt="Gallery" />
                       </a>
-                    </div>
-                    <div className="gallery-item">
+                    </CarouselItem>
+                    <CarouselItem className="gallery-item">
                       <a href="#">
                         <img src={gallery_img_4} alt="Gallery" />
                       </a>
-                    </div>
-                    <div className="gallery-item">
+                    </CarouselItem>
+                    <CarouselItem className="gallery-item">
                       <a href="#">
                         <img src={gallery_img_3} alt="Gallery" />
                       </a>
-                    </div>
-                    <div className="gallery-item">
+                    </CarouselItem>
+                    <CarouselItem className="gallery-item">
                       <a href="#">
                         <img src={gallery_img_2} alt="Gallery" />
                       </a>
-                    </div>
-                  </div>
+                    </CarouselItem>
+                  </Carousel>
                 </div>
               </div>
             </div>
@@ -169,7 +171,7 @@ const Footer = () => {
         {/* <!-- Footer Image Gallery Area End -->
 
     <!-- Copyright Area Start --> */}
-        <div className="copyright-area">
+        {/* <div className="copyright-area">
           <div className="ruby-container">
             <div className="row">
               <div className="col-lg-12 text-center">
@@ -183,7 +185,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <!-- Copyright Area End --> */}
       </footer>
     </div>
