@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import styled from "styled-components";
 import slide1 from "assets/img/slide-img-1.jpg";
 import slide2 from "assets/img/slide-img-2.jpg";
@@ -27,7 +27,7 @@ const BannerSlider = () => {
                     {/* <!-- Banner Single Carousel Start --> */}
                     <SingleCarousel1 className="single-carousel-wrap slide-item-1">
                       <div className="banner-caption text-center text-lg-left">
-                        <Fade bottom>
+                        <Fade direction="up">
                           <h4>Rubby Store</h4>
                           <h2>Ring Solitaire Princess</h2>
                           <p>
@@ -47,7 +47,7 @@ const BannerSlider = () => {
                   <Carousel.Item>
                     <SingleCarousel2 className="single-carousel-wrap slide-item-2">
                       <div className="banner-caption text-center text-lg-left">
-                        <Fade bottom>
+                        <Fade direction="up">
                           <h4>New Collection 2017</h4>
                           <h2>Beautiful Earrings</h2>
                           <p>
