@@ -6,6 +6,8 @@ import logo from "assets/img/logo.png";
 import payment from "assets/img/payment.png";
 import gallery_img_1 from "assets/img/gallery-img-1.jpg";
 import gallery_img_2 from "assets/img/gallery-img-2.jpg";
+import gallery_img_3 from "assets/img/gallery-img-3.jpg";
+import gallery_img_4 from "assets/img/gallery-img-4.jpg";
 
 const Footer = () => {
   return (
@@ -140,22 +142,22 @@ const Footer = () => {
                     </div>
                     <div className="gallery-item">
                       <a href="#">
-                        <img src="assets/img/gallery-img-3.jpg" alt="Gallery" />
+                        <img src={gallery_img_3} alt="Gallery" />
                       </a>
                     </div>
                     <div className="gallery-item">
                       <a href="#">
-                        <img src="assets/img/gallery-img-4.jpg" alt="Gallery" />
+                        <img src={gallery_img_4} alt="Gallery" />
                       </a>
                     </div>
                     <div className="gallery-item">
                       <a href="#">
-                        <img src="assets/img/gallery-img-3.jpg" alt="Gallery" />
+                        <img src={gallery_img_3} alt="Gallery" />
                       </a>
                     </div>
                     <div className="gallery-item">
                       <a href="#">
-                        <img src="assets/img/gallery-img-2.jpg" alt="Gallery" />
+                        <img src={gallery_img_2} alt="Gallery" />
                       </a>
                     </div>
                   </div>
