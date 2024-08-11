@@ -2,6 +2,10 @@ import air_plane from "assets/img/air-plane.png";
 import support from "assets/img/support.png";
 import money_back from "assets/img/money-back.png";
 import cog from "assets/img/cog.png";
+import logo from "assets/img/logo.png";
+import payment from "assets/img/payment.png";
+import gallery_img_1 from "assets/img/gallery-img-1.jpg";
+import gallery_img_2 from "assets/img/gallery-img-2.jpg";
 
 const Footer = () => {
   return (
@@ -81,7 +85,7 @@ const Footer = () => {
                 <div className="col-lg-12 text-center">
                   <div className="follow-content-wrap">
                     <a href="index.html" className="logo">
-                      <img src="assets/img/logo.png" alt="logo" />
+                      <img src={logo} alt="logo" />
                     </a>
                     <p>
                       Eodem modo typi, qui nunc nobis videntur parum clari,
@@ -107,7 +111,7 @@ const Footer = () => {
                     </div>
 
                     <a href="#">
-                      <img src="assets/img/payment.png" alt="Payment Method" />
+                      <img src={payment} alt="Payment Method" />
                     </a>
                   </div>
                 </div>
@@ -126,12 +130,12 @@ const Footer = () => {
                   <div className="imgage-gallery-carousel owl-carousel">
                     <div className="gallery-item">
                       <a href="#">
-                        <img src="assets/img/gallery-img-1.jpg" alt="Gallery" />
+                        <img src={gallery_img_1} alt="Gallery" />
                       </a>
                     </div>
                     <div className="gallery-item">
                       <a href="#">
-                        <img src="assets/img/gallery-img-2.jpg" alt="Gallery" />
+                        <img src={gallery_img_2} alt="Gallery" />
                       </a>
                     </div>
                     <div className="gallery-item">
