@@ -5,6 +5,7 @@ import styled from "styled-components";
 import slide1 from "assets/img/slide-img-1.jpg";
 import slide2 from "assets/img/slide-img-2.jpg";
 
+
 const SingleCarousel1 = styled.div`
   background-image: url(${slide1});
 `;
