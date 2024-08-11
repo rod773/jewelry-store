@@ -1,3 +1,5 @@
+import air_plane from "assets/img/air-plane.png";
+
 const Footer = () => {
   return (
     <div>
@@ -11,10 +13,7 @@ const Footer = () => {
                   {/* <!-- Single Call-to Action Start --> */}
                   <div className="single-callto-action d-flex">
                     <figure className="callto-thumb">
-                      <img
-                        src="assets/img/air-plane.png"
-                        alt="WorldWide Shipping"
-                      />
+                      <img src={air_plane} alt="WorldWide Shipping" />
                     </figure>
                     <div className="callto-info">
                       <h2>Free Shipping Worldwide</h2>
