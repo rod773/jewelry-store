@@ -1,13 +1,3 @@
-import air_plane from "assets/img/air-plane.png";
-import support from "assets/img/support.png";
-import money_back from "assets/img/money-back.png";
-import cog from "assets/img/cog.png";
-import logo from "assets/img/logo.png";
-import payment from "assets/img/payment.png";
-import gallery_img_1 from "assets/img/gallery-img-1.jpg";
-import gallery_img_2 from "assets/img/gallery-img-2.jpg";
-import gallery_img_3 from "assets/img/gallery-img-3.jpg";
-import gallery_img_4 from "assets/img/gallery-img-4.jpg";
 import IMAGES from "assets/img/index.js";
 import Carousel from "react-bootstrap/Carousel";
 import Stack from "react-bootstrap/Stack";
@@ -25,7 +15,7 @@ const Footer = () => {
                   {/* <!-- Single Call-to Action Start --> */}
                   <div className="single-callto-action d-flex">
                     <figure className="callto-thumb">
-                      <img src={air_plane} alt="WorldWide Shipping" />
+                      <img src={IMAGES.air_plane} alt="WorldWide Shipping" />
                     </figure>
                     <div className="callto-info">
                       <h2>Free Shipping Worldwide</h2>
@@ -39,7 +29,7 @@ const Footer = () => {
                   {/* <!-- Single Call-to Action Start --> */}
                   <div className="single-callto-action d-flex">
                     <figure className="callto-thumb">
-                      <img src={support} alt="Support" />
+                      <img src={IMAGES.support} alt="Support" />
                     </figure>
                     <div className="callto-info">
                       <h2>24/7 CUSTOMER SERVICE</h2>
@@ -53,7 +43,7 @@ const Footer = () => {
                   {/* <!-- Single Call-to Action Start --> */}
                   <div className="single-callto-action d-flex">
                     <figure className="callto-thumb">
-                      <img src={money_back} alt="Money Back" />
+                      <img src={IMAGES.money_back} alt="Money Back" />
                     </figure>
                     <div className="callto-info">
                       <h2>MONEY BACK Guarantee!</h2>
@@ -67,7 +57,7 @@ const Footer = () => {
                   {/* <!-- Single Call-to Action Start --> */}
                   <div className="single-callto-action d-flex">
                     <figure className="callto-thumb">
-                      <img src={cog} alt="Guide" />
+                      <img src={IMAGES.cog} alt="Guide" />
                     </figure>
                     <div className="callto-info">
                       <h2>SHOPPING GUIDE</h2>
@@ -90,7 +80,7 @@ const Footer = () => {
                 <div className="col-lg-12 text-center">
                   <div className="follow-content-wrap">
                     <a href="index.html" className="logo">
-                      <img src={logo} alt="logo" />
+                      <img src={IMAGES.logo} alt="logo" />
                     </a>
                     <p>
                       Eodem modo typi, qui nunc nobis videntur parum clari,
@@ -116,7 +106,7 @@ const Footer = () => {
                     </div>
 
                     <a href="#">
-                      <img src={payment} alt="Payment Method" />
+                      <img src={IMAGES.payment} alt="Payment Method" />
                     </a>
                   </div>
                 </div>
@@ -142,12 +132,12 @@ const Footer = () => {
                         </div>
                         <div className="gallery-item">
                           <a href="#">
-                            <img src={gallery_img_2} alt="Gallery" />
+                            <img src={IMAGES.gallery_img_2} alt="Gallery" />
                           </a>
                         </div>
                         <div className="gallery-item">
                           <a href="#">
-                            <img src={gallery_img_3} alt="Gallery" />
+                            <img src={IMAGES.gallery_img_3} alt="Gallery" />
                           </a>
                         </div>
                       </Stack>
@@ -156,17 +146,17 @@ const Footer = () => {
                       <Stack direction="horizontal">
                         <div className="gallery-item">
                           <a href="#">
-                            <img src={gallery_img_4} alt="Gallery" />
+                            <img src={IMAGES.gallery_img_4} alt="Gallery" />
                           </a>
                         </div>
                         <div className="gallery-item">
                           <a href="#">
-                            <img src={gallery_img_3} alt="Gallery" />
+                            <img src={IMAGES.gallery_img_3} alt="Gallery" />
                           </a>
                         </div>
                         <div className="gallery-item">
                           <a href="#">
-                            <img src={gallery_img_2} alt="Gallery" />
+                            <img src={IMAGES.gallery_img_2} alt="Gallery" />
                           </a>
                         </div>
                       </Stack>
