@@ -4,14 +4,13 @@ import { Fade } from "react-awesome-reveal";
 import styled from "styled-components";
 import IMAGES from "assets/img/index.js";
 
-const SingleCarousel1 = styled.div`
-  background-image: url(${IMAGES.slide_img_1});
-`;
+const SingleCarousel1 = {
+  backgroundImage: `url(${IMAGES.slide_img_1})`,
+};
 
-const SingleCarousel2 = styled.div`
-  background-image: url(${IMAGES.slide_img_2});
-`;
-
+const SingleCarousel2 = {
+  backgroundImage: `url(${IMAGES.slide_img_2})`,
+};
 const BannerSlider = () => {
   return (
     <>
@@ -24,7 +23,10 @@ const BannerSlider = () => {
                 <Carousel>
                   <Carousel.Item>
                     {/* <!-- Banner Single Carousel Start --> */}
-                    <SingleCarousel1 className="single-carousel-wrap slide-item-1">
+                    <div
+                      style={SingleCarousel1}
+                      className="single-carousel-wrap slide-item-1"
+                    >
                       <div className="banner-caption text-center text-lg-left">
                         <Fade direction="up" duration="1000">
                           <h4>Rubby Store</h4>
@@ -38,13 +40,16 @@ const BannerSlider = () => {
                           </a>
                         </Fade>
                       </div>
-                    </SingleCarousel1>
+                    </div>
                   </Carousel.Item>
                   {/* <!-- Banner Single Carousel End -->
 
                   <!-- Banner Single Carousel Start --> */}
                   <Carousel.Item>
-                    <SingleCarousel2 className="single-carousel-wrap slide-item-2">
+                    <div
+                      style={SingleCarousel2}
+                      className="single-carousel-wrap slide-item-2"
+                    >
                       <div className="banner-caption text-center text-lg-left">
                         <Fade direction="up" duration="1000">
                           <h4>New Collection 2017</h4>
@@ -58,7 +63,7 @@ const BannerSlider = () => {
                           </a>
                         </Fade>
                       </div>
-                    </SingleCarousel2>
+                    </div>
                   </Carousel.Item>
 
                   {/* <!-- Banner Single Carousel End --> */}
