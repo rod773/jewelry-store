@@ -8,6 +8,7 @@ import gallery_img_1 from "assets/img/gallery-img-1.jpg";
 import gallery_img_2 from "assets/img/gallery-img-2.jpg";
 import gallery_img_3 from "assets/img/gallery-img-3.jpg";
 import gallery_img_4 from "assets/img/gallery-img-4.jpg";
+import IMAGES from "assets/img/index.js";
 import Carousel from "react-bootstrap/Carousel";
 import Stack from "react-bootstrap/Stack";
 
@@ -136,7 +137,7 @@ const Footer = () => {
                       <Stack direction="horizontal">
                         <div className="gallery-item">
                           <a href="#">
-                            <img src={gallery_img_1} alt="Gallery" />
+                            <img src={IMAGES.gallery_img_1} alt="Gallery" />
                           </a>
                         </div>
                         <div className="gallery-item">
