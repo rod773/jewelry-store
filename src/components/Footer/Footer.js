@@ -1,6 +1,7 @@
 import IMAGES from "assets/img/index.js";
 import Carousel from "react-bootstrap/Carousel";
 import Stack from "react-bootstrap/Stack";
+import Image from "react-bootstrap/Image";
 
 const Footer = () => {
   return (
@@ -80,7 +81,7 @@ const Footer = () => {
                 <div className="col-lg-12 text-center">
                   <div className="follow-content-wrap">
                     <a href="index.html" className="logo">
-                      <img src={IMAGES.logo} alt="logo" />
+                      <Image src={IMAGES.logo} alt="logo" fluid />
                     </a>
                     <p>
                       Eodem modo typi, qui nunc nobis videntur parum clari,
@@ -127,17 +128,29 @@ const Footer = () => {
                       <Stack direction="horizontal">
                         <div className="gallery-item">
                           <a href="#">
-                            <img src={IMAGES.gallery_img_1} alt="Gallery" />
+                            <Image
+                              src={IMAGES.gallery_img_1}
+                              alt="Gallery"
+                              fluid
+                            />
                           </a>
                         </div>
                         <div className="gallery-item">
                           <a href="#">
-                            <img src={IMAGES.gallery_img_2} alt="Gallery" />
+                            <Image
+                              src={IMAGES.gallery_img_2}
+                              alt="Gallery"
+                              fluid
+                            />
                           </a>
                         </div>
                         <div className="gallery-item">
                           <a href="#">
-                            <img src={IMAGES.gallery_img_3} alt="Gallery" />
+                            <Image
+                              src={IMAGES.gallery_img_3}
+                              alt="Gallery"
+                              fluid
+                            />
                           </a>
                         </div>
                       </Stack>
@@ -146,17 +159,29 @@ const Footer = () => {
                       <Stack direction="horizontal">
                         <div className="gallery-item">
                           <a href="#">
-                            <img src={IMAGES.gallery_img_4} alt="Gallery" />
+                            <Image
+                              src={IMAGES.gallery_img_4}
+                              alt="Gallery"
+                              fluid
+                            />
                           </a>
                         </div>
                         <div className="gallery-item">
                           <a href="#">
-                            <img src={IMAGES.gallery_img_3} alt="Gallery" />
+                            <Image
+                              src={IMAGES.gallery_img_3}
+                              alt="Gallery"
+                              fluid
+                            />
                           </a>
                         </div>
                         <div className="gallery-item">
                           <a href="#">
-                            <img src={IMAGES.gallery_img_2} alt="Gallery" />
+                            <Image
+                              src={IMAGES.gallery_img_2}
+                              alt="Gallery"
+                              fluid
+                            />
                           </a>
                         </div>
                       </Stack>
