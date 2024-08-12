@@ -37,6 +37,8 @@ const IMAGES = {
   new_product_2: require("./new-product-2.jpg"),
   new_product_3: require("./new-product-3.jpg"),
   new_product_4: require("./new-product-4.jpg"),
+  page_title_bg: require("./page-title-bg.jpg"),
+  payment: require("./payment.png"),
   sale_product_1: require("./sale-product-1.jpg"),
   sale_product_2: require("./sale-product-2.jpg"),
   single_blog: require("./single-blog.jpg"),

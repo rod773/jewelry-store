@@ -2,15 +2,14 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { Fade } from "react-awesome-reveal";
 import styled from "styled-components";
-import slide1 from "assets/img/slide-img-1.jpg";
-import slide2 from "assets/img/slide-img-2.jpg";
+import IMAGES from "assets/img/index.js";
 
 const SingleCarousel1 = styled.div`
-  background-image: url(${slide1});
+  background-image: url(${IMAGES.slide_img_1});
 `;
 
 const SingleCarousel2 = styled.div`
-  background-image: url(${slide2});
+  background-image: url(${IMAGES.slide_img_2});
 `;
 
 const BannerSlider = () => {
