@@ -16,6 +16,7 @@ const IMAGES = {
   footer_bg: require("./footer-bg.jpg").default,
   gallery_img_1: require("./gallery-img-1.jpg").default,
   gallery_img_2: require("./gallery-img-2.jpg").default,
+  gallery_img_3: require("./gallery-img-3.jpg").default,
   gallery_img_4: require("./gallery-img-4.jpg").default,
   home_4_slide_1: require("./home_4_slide_1.jpg").default,
   home_4_slide_2: require("./home_4_slide_2.jpg").default,
